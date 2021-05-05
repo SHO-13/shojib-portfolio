@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe Print;
+}
+
+/* ====================Common Css start here====================== */
+    
+    .main-header {
+        background: #6e0803;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    
+
+    .containar {
+        width: 80%;
+        margin: auto;
+    }
+
+    .clearfix ::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    img {
+        max-width: 100%;
+    }
+/* ====================Common Css End here====================== */
+
+
+/* ====================Main-nave start here====================== */
+    .logo-nav {
+        float: left;
+        width: 30%;
+    }
+
+    .logo-nav img {
+        width: 70px;
+        height: auto;
+        padding: 7px 0px;
+        border-radius: 50%;
+    }
+
+    .link-nav {
+        float: right;
+        width: 70%;
+        text-align: right;
+    }
+
+    .link-nav ul {
+        list-style: none;
+    }
+
+    .link-nav ul li {
+        display: inline-block;
+    }
+
+    .link-nav ul li a {
+        display: inline-block;
+        color: #ffffff;
+        padding: 18px 25px;
+        line-height: 50px;
+        text-decoration: none;
+        transition: .4s;
+        margin-right: -5px;
+        font-family: Segoe Print;
+    }
+
+    .link-nav ul li a:hover{
+        background: #a70400;
+    }
+
+    .manu-hidden {
+        display: none;
+    }
+
+/* ====================Main-nav End here====================== */
+
+
+/* ====================Banner start here====================== */
+    .banner-raea {
+        background-image: url(image/pubg-3jpg.jpg);
+        background-size: cover;
+        padding: 300px 0;
+    }
+
+    .banner-raea h1 {
+        color: #ffffff;
+        padding: 15px;
+        font-family: Segoe Print;
+    }
+
+    .banner-raea h2 {
+         color: #ffffff;
+         font-weight: bold;
+         padding: 15px;
+         margin-left: 13px;
+         font-size: 24px;
+         font-family: Segoe Print;
+        }
+    
+    
+/* ====================Banner  End here====================== */
+
+
+/* ===================service item start here===================== */
+    .service-item {
+        float: left;
+        width: 33.3%;
+        text-align: center;
+        text-justify: auto;
+        font-style: italic;
+        
+    }
+
+
+
+
+    .service-item img{
+        width: 150px;
+        height: auto;
+        border-radius: 50%;
+    }
+/* ===================service item end here===================== */
+
+
+
+/* ===================About section start here===================== */
+
+    .about-section {
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+        
+        padding: 20px;
+        
+    }
+
+    .about-section h2{
+        font-size: 32px;
+        font-family: Segoe Print;
+    }
+
+    .about-section p {
+        font-size: 20px;
+        font-family: Segoe Print;
+    }
+/* ===================About section  end here===================== */
+
+
+/* =================Footer area start here===================== */
+.footer {
+     background: #6e0803;
+        
+    margin-top: 15px;
+    
+}
+
+.footer-left {
+    float: left;
+    width: 30%;
+}
+
+.footer-right {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+.footer-left img {
+    width: 150px;
+    height: auto;
+    line-height: 5px;
+}
+
+.footer-right ul {
+    list-style: none;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    
+
+}
+
+.footer-right ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 63px;
+    text-decoration: none;
+    transition: -4s;
+    color: #ffffff;
+    font-family: Segoe Print;
+}
+
+    .footer-right ul li a:hover{
+        background: #a70400;
+        
+    }
+
+/* =================Footer area end here===================== */
+        
